@@ -1,0 +1,82 @@
+ul {
+  display: grid !important;
+  width: 100%;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-column-gap: 10px;
+
+  li {
+    font-size: 18px;
+
+    a:hover {
+      color: #0a53be !important;
+      font-weight: bold;
+    }
+  }
+}
+
+
+#navCenter {
+  display: flex;
+  justify-content: center;
+
+}
+
+#MenuActionButtons {
+  display: flex;
+  justify-content: right;
+  margin: auto 20px auto auto;
+  align-items: center;
+}
+
+#AboutAccount {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  margin: auto 20px auto auto;
+  align-items: center;
+  position: relative;
+  width: fit-content;
+  z-index: 2;
+
+  div:first-child {
+
+    box-sizing: border-box;
+    padding-bottom: 10px;
+
+    &:after{
+      content: "▼";
+    }
+
+    img {
+      width: 35px;
+      margin-right: 20px;
+    }
+  }
+
+  div.account-actions {
+    display: none;
+    padding-top: 15px;
+    box-sizing: border-box;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+    a {
+      text-align: right;
+      display: block;
+      min-width: 140px;
+      width: fit-content;
+    }
+  }
+
+  &:hover {
+    cursor: pointer;
+
+    div:first-child:after{
+      content: "▲";
+    }
+
+    div.account-actions {
+      display: block;
+      position: absolute;
+      top: 40px;
+    }
+  }
+}

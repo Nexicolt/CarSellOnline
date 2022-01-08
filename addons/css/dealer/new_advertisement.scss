@@ -1,0 +1,80 @@
+#NewAdvertisementForm{
+  max-width: 800px;
+  display: block;
+  margin: 40px auto;
+
+  .row{
+    margin: 10px auto 10px auto;
+
+    label{
+      margin-bottom: 5px;
+    }
+  }
+
+  textarea{
+    height: 200px;
+    max-height: 200px;
+    min-height: 200px;
+    overflow-y: auto;
+    resize: none;
+  }
+
+}
+.ImagesRowSquareThumbnail{
+  border: 1px solid #aaaaaa;
+  width: 82px !important;
+  height: 82px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  margin: 10px auto 10px auto;
+
+  img{
+    width: 70px;
+    height: 70px;
+  }
+
+  .removeThumbnailButton{
+    position: absolute;
+    right: 0;
+    top: -25px;
+    color: darkred;
+    font-weight: bold;
+    font-size: 20px;
+
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}
+.ImagesRowSquare{
+  border: 1px solid #aaaaaa;
+  width: 60px !important;
+  height: 60px;
+  box-sizing: content-box;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  &:hover{
+    cursor: pointer;
+  }
+
+  input[type='file']{
+    background: url("./addons/assets/icons/add-photo.pn") no-repeat;
+  }
+  img{
+    width: 50px;
+    height: 50px;
+  }
+
+}
+
+#thumbnails{
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}

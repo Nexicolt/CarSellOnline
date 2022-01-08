@@ -1,0 +1,11 @@
+#topButtons {
+  display: flex;
+  justify-content: center;
+
+  button {
+    flex-grow: inherit;
+    margin: 20px;
+  }
+}
+
+@import "../shared/advert_list";

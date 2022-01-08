@@ -1,0 +1,36 @@
+#opinions{
+  width: 800px;
+  margin: auto;
+
+  #header{
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 26px;
+    color: #0a53be;
+    margin-bottom: 20px;
+  }
+
+  .single_opinion{
+    margin: 15px auto 15px auto;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 10px;
+    .author{
+      display: block;
+      width: 100%;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .opinion{
+      width: 100%;
+      height: fit-content;
+      resize: none;
+      text-align: center;
+      margin-top: 10px;
+    }
+  }
+
+}

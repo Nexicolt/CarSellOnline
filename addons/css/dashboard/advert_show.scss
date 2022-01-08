@@ -1,0 +1,170 @@
+#mainContainer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  column-gap: 40px;
+}
+
+#advertDetails {
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .collapse {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .gg-box {
+    display: flex;
+    flex-wrap: wrap;
+
+    img {
+      width: 80px;
+      box-sizing: border-box;
+      padding: 5px;
+      border: 1px solid black;
+      height: auto;
+    }
+  }
+}
+
+#rightColumn {
+  margin-top: 110px;
+  margin-right: 20px;
+  height: fit-content;
+
+  >a{
+    text-decoration: none;
+    button{
+      display: block;
+      margin: 0 auto 15px auto;
+    }
+  }
+
+
+  #aboutSeller {
+    border: 1px solid #333333;
+    h1 {
+      display: block;
+      margin: 10px 0 10px 0;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    #CompanyName {
+      width: 80%;
+      display: block;
+      margin: auto;
+      box-sizing: border-box;
+      background-color: #aaaaaa;
+      text-align: center;
+    }
+
+    #sendOpinionButton {
+      display: block;
+      margin: 10px auto 10px auto;
+    }
+
+    #contactData {
+      width: 80%;
+      display: block;
+      margin: 20px auto;
+      box-sizing: border-box;
+
+      span {
+        width: 100%;
+        display: block;
+        margin: 10px auto;
+        box-sizing: border-box;
+        background-color: #aaaaaa;
+        text-align: left;
+        color: #444444;
+        padding: 5px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+#modal {
+  z-index: 2;
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#opinionForm {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  border-radius: 10px;
+  width: 500px;
+  background-color: #dde0e3;
+  border: 2px solid #333333;
+  z-index: 3;
+
+  h1 {
+    display: block;
+    margin: 10px 0 10px 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0a53be;
+  }
+
+  #feelings {
+    width: 120px;
+    margin: 10px auto 20px auto;
+    display: flex;
+    justify-content: space-around;
+
+    img {
+      width: 40px;
+      height: auto;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &.clicked {
+        -webkit-filter: none;
+        filter: none;
+      }
+    }
+  }
+
+  textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+  }
+
+  #OpinionButtons {
+    display: flex;
+    justify-content: center;
+
+    * {
+      margin: 15px 10px 0 10px;
+    }
+
+  }
+}

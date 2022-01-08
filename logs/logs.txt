@@ -1,0 +1,27 @@
+Access denied for user 'roott'@'localhost' (using password: NO)
+Access denied for user 'roott'@'localhost' (using password: NO)
+Access denied for user 'roott'@'localhost' (using password: NO)
+Access denied for user 'roott'@'localhost' (using password: NO)
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ? 'C' : 'U' )' at line 1
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ? 'C' : 'U') )' at line 1
+Column count doesn't match value count at row 1
+Access denied for user ''@'localhost' (using password: NO)
+Unknown database 'php_project'
+Unknown database 'php_project'
+Błąd dodawania ogłoszenia -> Column count doesn't match value count at row 1
+Błąd dodawania danych dodatkowych ogłoszenia -> Column count doesn't match value count at row 1
+Błąd edycji danych dodatkowych ogłoszenia -> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')  
+                        WHERE advertisementId=31' at line 2
+Błąd usuwania ogłoszenia -> Cannot delete or update a parent row: a foreign key constraint fails (`carsellonline`.`advertisement_detail`, CONSTRAINT `advertisement_detail_ibfk_2` FOREIGN KEY (`advertisementId`) REFERENCES `advertisement` (`Id`))
+Błąd wyświetlania ogłoszeń dealera -> Unknown column 'brand' in 'where clause'
+Błąd wyświetlania ogłoszeń dealera -> Unknown column 'brand' in 'where clause'
+Błąd wyświetlania ogłoszeń dealera -> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '<  '2'' at line 1
+Błąd dodawania opini (sprawdzam, czy użytkownik już nie ocenił sprzedwcy)-> 
+Błąd dodawania opini (sprawdzam, czy użytkownik już nie ocenił sprzedwcy)-> 
+Błąd dodawania opini (sprawdzam, czy użytkownik już nie ocenił sprzedwcy)-> 
+Błąd dodawania opini (sprawdzam, czy użytkownik już nie ocenił sprzedwcy)-> 
+Błąd dodawania opini (sprawdzam, czy użytkownik już nie ocenił sprzedwcy)-> 
+Błąd dodawania opini -> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''','Gówniany sprzedawca. Nie polecam')' at line 1
+Błąd dodawania opini -> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''OK','Gówniany sprzedawca. Nie polecam
+')' at line 1
+Nie można nawiązać połączenia, ponieważ komputer docelowy aktywnie go odmawia

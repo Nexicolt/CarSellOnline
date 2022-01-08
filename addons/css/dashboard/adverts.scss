@@ -1,0 +1,27 @@
+@import "../shared/advert_list";
+
+#search_criteria {
+  width: 800px;
+  display: block;
+  margin: auto;
+  padding: 20px;
+
+  .row {
+    display: flex;
+    justify-content: center;
+
+    div {
+      width: 50%;
+
+      a {
+        text-decoration: none;
+      }
+
+      input[type="submit"], input[type="button"] {
+        display: block;
+        margin: 20px 0 0 auto;
+
+      }
+    }
+  }
+}
